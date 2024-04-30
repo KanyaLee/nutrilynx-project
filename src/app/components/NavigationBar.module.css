@@ -1,0 +1,32 @@
+ /* src/components/NavigationBar.module.css */
+
+.navbar {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background: white; /* Adjust based on your design */
+  }
+
+  
+  .links {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .links a {
+    text-decoration: none;
+    color: black; /* Adjust based on your design */
+    font-weight: bold;
+  }
+  
+  .icons {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .icons a {
+    display: flex;
+    align-items: center;
+  }
+  
