@@ -4,25 +4,28 @@
     display: flex;
     justify-content:space-between;
     align-items: center;
-    padding: 10px 20px;
+    padding: 20px 40px;
+    padding-top: 100px;
     background: white; /* Adjust based on your design */
   }
 
   
   .links {
     display: flex;
-    gap: 20px;
+    gap: 30px;
   }
   
   .links a {
     text-decoration: none;
     color: black; /* Adjust based on your design */
-    font-weight: bold;
+    font-size: 14px;
+    font-family: "Roboto Serif", serif;
+    font-weight: 200;
   }
   
   .icons {
     display: flex;
-    gap: 15px;
+    gap: 20px;
   }
   
   .icons a {
