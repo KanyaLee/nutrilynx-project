@@ -40,21 +40,21 @@ const HeroSection:React.FC = () => {
             sx={{
                 position:'absolute',
                 top: '40%',
-                left: '25%',
+                left: '30%',
                 transform: 'translate(-50%, -50%)',
                 color: 'white',
                 textAlign: 'left',
-                zIndex:2,
+                zIndex: 2,
 
         }}
         >
-            <Typography variant="h4" component="h1" sx={{fontWeight: 'bold'}} gutterBottom>
+            <Typography variant="h3" component="h1" sx={{fontWeight: 'bold'}} gutterBottom>
                     YOUR PATH TO PERSONALIZED HEALTH
             </Typography>
-            <Typography variant="subtitle1" gutterBottom>
+            <Typography variant="h6" gutterBottom>
                     Explore custom dietary plans and Eco-friendly supplements tailored just for you
             </Typography>
-            <Button variant="contained" sx={{ mt: 4, padding:'10px 50px'}}>
+            <Button variant="contained" sx={{ mt: 4, padding:'10px 50px' }}>
                     Join NutriLynx
             </Button>
         </Box>

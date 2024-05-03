@@ -11,7 +11,7 @@ const NavigationBar: React.FC = () => {
   return (
     <nav className={styles.navbar}>
         <div className={styles.logo}>
-            <Link href="/home"><Image src="/images/nutrilynx-logo.png" alt="" width={50} height={50} ></Image></Link>
+            <Link href="/"><Image src="/images/nutrilynx-logo.png" alt="" width={50} height={50} ></Image></Link>
         </div>
         <div className={styles.links}>
             <Link href="/about-us">About Us</Link>
