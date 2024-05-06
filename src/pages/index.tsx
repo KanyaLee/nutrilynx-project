@@ -2,6 +2,7 @@
 import Layout from '../app/layout';
 import HeroSection from './home/HeroSection';
 import AboutSection from './home/AboutSection'
+import FeatureSection from './home/FeatureSection'
 
 const AboutUsPage = () => {
   return (
@@ -9,6 +10,7 @@ const AboutUsPage = () => {
       <div>
         <HeroSection />
         <AboutSection />
+        <FeatureSection />
       </div>
     </Layout>
   );

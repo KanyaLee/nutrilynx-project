@@ -1,0 +1,54 @@
+/* src/components/FeatureCard.module.css */
+.card {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+}
+
+.cardImage {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: blur(8px);
+    transition: filter 0.3s ease-in-out;
+}
+
+.cardOverlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #cf8a40b5; /* Red color overlay; adjust color and opacity as needed */
+    transition: background-color 0.3s ease-in-out;
+}
+
+.card:hover .cardOverlay {
+    background-color: #cf8a4041; /* Clear color on hover */
+}
+
+.card:hover .cardImage {
+    filter: blur(0px);
+}
+
+.content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    z-index: 2; /* Ensures text is above the image and overlay */
+}
+
+.title, .description {
+    z-index: 3;
+    font-weight: bold;
+    padding: 10px;
+}
